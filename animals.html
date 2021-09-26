@@ -4,9 +4,12 @@
 <head>
     <title>Wild Animals</title>
     <style>
-        tr:nth-child(even) {background-color: lightcyan;border: teal;}
+        tr:nth-child(even) {
+            background-color: lightcyan;
+            border: teal;
+        }
     </style>
-    
+
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
@@ -56,52 +59,68 @@
     <table class="table table-bordered" style="width: 50%;">
         <caption>List of Animals,Cars,Citys </caption>
         <thead>
-        <tr class="table-active" style="background-color: cadetblue; border: solid black 2px;">
-            <th scope="col">Letter</th>
-            <th scope="col">Animal</th>
-            <th scope="col">City</th>
-            <th scope="col">Car</th>
-        </tr>
-    </thead>
-    <tbody>
-        <tr>
-            <th scope="row">K</th>
-            <td>Kakapo</td>
-            <td>Kansas</td>
-            <td>Karma</td>
-        </tr>
-        <tr>
-            <th scope="row">O</th>
-            <td>Ocelot</td>
-            <td>Oakland</td>
-            <td>Octavia</td>
-        </tr>
-        <tr>
-            <th scope="row">R</th>
-            <td>Raccoon</td>
-            <td>Richmond</td>
-            <td>R8</td>
-        </tr>
-        <tr>
-            <th scope="row">R</th>
-            <td>Rattlesnake</td>
-            <td>Rochester</td>
-            <td>Rambler</td>
-        </tr>
-        <tr>
-            <th scope="row">A</th>
-            <td>Ape</td>
-            <td>Arlington</td>
-            <td>Accent</td>
-        </tr>
-        <tr>
-            <th scope="row">P</th>
-            <td>Panda</td>
-            <td>Philadelphia</td>
-            <td>Pantera</td>
-        </tr>
-    </tbody>
+            <tr class="table-active" style="background-color: cadetblue; border: solid black 2px;">
+                <th scope="col">Letter</th>
+                <th scope="col">Animal</th>
+                <th scope="col">City</th>
+                <th scope="col">Car</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <th scope="row">K</th>
+                <td>Kakapo</td>
+                <td>Kansas</td>
+                <td>Karma</td>
+            </tr>
+            <tr>
+                <th scope="row">O</th>
+                <td>Ocelot</td>
+                <td>Oakland</td>
+                <td>Octavia</td>
+            </tr>
+            <tr>
+                <th scope="row">R</th>
+                <td>Raccoon</td>
+                <td>Richmond</td>
+                <td>R8</td>
+            </tr>
+            <tr>
+                <th scope="row">R</th>
+                <td>Rattlesnake</td>
+                <td>Rochester</td>
+                <td>Rambler</td>
+            </tr>
+            <tr>
+                <th scope="row">A</th>
+                <td>Ape</td>
+                <td>Arlington</td>
+                <td>Accent</td>
+            </tr>
+            <tr>
+                <th scope="row">P</th>
+                <td>Panda</td>
+                <td>Philadelphia</td>
+                <td>Pantera</td>
+            </tr>
+        </tbody>
     </table>
+
+    <div class="btn-toolbar" role="toolbar" aria-label="Toolbar with button groups">
+        <div class="btn-group" role="group" aria-label="Animals we found Images">
+            <button type="button" class="btn btn-success">Ocelot</button>
+            <button type="button" class="btn btn-success">Ape</button>
+            <button type="button" class="btn btn-success">Panda</button>
+        </div>
+        <div class="btn-group" role="group" aria-label="With Warning">
+            <button type="button" class="btn btn-warning">Raccoon</button>
+            <button type="button" class="btn btn-warning">Kakapo</button>
+        </div>
+        <div class="btn-group" role="group" aria-label="Danger">
+            <button type="button" class="btn btn-danger">Rattlesnake</button>
+        </div>
+    </div>
+
 </body>
 
 </html>
